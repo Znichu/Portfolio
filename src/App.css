@@ -1,9 +1,9 @@
-.App {
-
-}
-
 .wrapper {
+  display: flex;
+  background-color: #10121B;
   position: relative;
   min-height: 100vh;
   z-index: 1;
 }
+
+

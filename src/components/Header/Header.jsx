@@ -1,5 +1,4 @@
 import React from "react";
-import style from './Heade.module.css'
 import NavBar from "./NavBar/NavBar";
 
 
