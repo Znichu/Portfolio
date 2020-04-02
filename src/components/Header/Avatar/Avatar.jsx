@@ -5,7 +5,7 @@ import style from './Avatar.module.css'
 
 const Avatar = () => {
     return (
-        <div className={style.main_header_avat}>
+        <div className={style.main_header_avatar}>
             <a href="#">
                 <img src="" alt="main-image"/>
             </a>
