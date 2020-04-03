@@ -11,9 +11,9 @@ const Home = () => {
                 <h1>Привет, меня зовут <span className={style.main_color}>Сергей Неплашов</span></h1>
                 <p>Я front-end разработчик</p>
                 <ul className={`${style.main_social} ${style.main_social_bordered}`}>
-                    <li><a target="_blank" href="https://t.me/Znichu"><FontAwesomeIcon icon={faTelegramPlane} size="2x"/></a></li>
-                    <li><a target="_blank" href="https://www.linkedin.com/in/sergey-neplashov-8722a6171/"><FontAwesomeIcon icon={faLinkedinIn} size="2x"/></a></li>
-                    <li><a target="_blank" href="https://github.com/Znichu"><FontAwesomeIcon icon={faGithub} size="2x"/></a></li>
+                    <li><a target="_blank" rel="noopener noreferrer" href="https://t.me/Znichu"><FontAwesomeIcon icon={faTelegramPlane} size="2x"/></a></li>
+                    <li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/sergey-neplashov-8722a6171/"><FontAwesomeIcon icon={faLinkedinIn} size="2x"/></a></li>
+                    <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/Znichu"><FontAwesomeIcon icon={faGithub} size="2x"/></a></li>
                 </ul>
             </div>
         </div>

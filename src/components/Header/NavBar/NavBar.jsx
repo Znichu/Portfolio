@@ -8,7 +8,7 @@ const NavBar = () => {
             <div className={style.main_inner}>
                 <Avatar/>
                 <ul className={style.main_header_menu}>
-                    <li><a href=""><span>home</span></a></li>
+                    <li><a className={style.active} href=""><span>home</span></a></li>
                     <li><a href=""><span>about</span></a></li>
                     <li><a href=""><span>portfolio</span></a></li>
                     <li><a href=""><span>contact</span></a></li>

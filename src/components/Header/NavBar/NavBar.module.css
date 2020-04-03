@@ -87,11 +87,13 @@ p {
     color: #037fff;
 }
 
-.main_header_menu a:active {
-    color: #ffff;
+.active {
     background: #037fff;
 }
 
+.main_header_menu li a.active{
+    color: white;
+}
 
 .main_header_copyright {
     display: block;
