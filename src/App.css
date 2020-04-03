@@ -1,5 +1,6 @@
 .wrapper {
-  display: flex;
+  display: grid;
+  grid-template-columns: 300px 4fr;
   background-color: #10121B;
   position: relative;
   min-height: 100vh;
