@@ -1,0 +1,12 @@
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    padding: 5px 0;
+    margin: 10px;
+}
+
+.nav a {
+    color: #fffffe;
+    text-decoration: none;
+}

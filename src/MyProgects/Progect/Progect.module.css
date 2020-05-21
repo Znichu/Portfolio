@@ -1,0 +1,79 @@
+.project {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    text-align: center;
+    color: #fffffe;
+    margin: 20px;
+}
+.description {
+    margin-top: 30px;
+}
+
+.project__avatar {
+    height: 300px;
+    overflow: hidden;
+    transition: 0.3s;
+    position: relative;
+}
+
+.project__avatar img {
+    transition: 0.3s;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.project__avatar .projectAvatar__button {
+    position: absolute;
+    top: 0;
+    background: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.projectAvatar__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project__avatar:hover img {
+    transform: scale(1.1);
+}
+
+.project__avatar:hover .projectAvatar__button {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.projectAvatar__button button {
+    background-color: #037FFF;
+    border: none;
+    height: 40px;
+    padding: 0 30px;
+    cursor: pointer;
+    color: white;
+    text-transform: uppercase;
+}
+.project__avatar:hover .projectAvatar__button button {
+    transform: translateY(0);
+}
+
+@media (max-width: 1200px) {
+    .project__avatar {
+        width: calc(50% - 30px);
+    }
+}
+
+@media (max-width: 480px) {
+    .project__avatar {
+        width: calc(100% - 30px);
+        float: none;
+    }
+}
